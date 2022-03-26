@@ -1,5 +1,6 @@
 # Rust game of life
 
+[DEMO](https://is.game-of-life.skippy-ai.com/)
 ## Possible improvements
 
 - use Bevy game engine for rendering
