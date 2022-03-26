@@ -8,9 +8,9 @@ RUN bash ./build_web.sh
 
 
 FROM node:16-alpine
-COPY --from=builder /vaja_1/docs ./
+COPY --from=builder /vaja_1/docs ./docs
 COPY --from=builder /vaja_1/run.js ./
-CMD ["node ./run"]  
+CMD ["node", "./run"]  
 
 
 
