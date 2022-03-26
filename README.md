@@ -16,3 +16,5 @@
 - Difference between immediate mode and retained mode UI
 - Egui and how to run it in web
 - A little bit about rust folder structure
+
+![preview](./preview.png)
